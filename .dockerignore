@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+logs/
+*.log
+*.session
+data/subscribers.json
+data/new_listings.json
