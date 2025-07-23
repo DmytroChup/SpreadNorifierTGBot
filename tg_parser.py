@@ -11,8 +11,6 @@ SESSION_NAME = "sessions/tg_parser"
 
 CHANNEL = "@listing_alarm"
 
-print(f"Используется сессия: {SESSION_NAME}.session")
-
 client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
 
 async def save_listing(listing):
