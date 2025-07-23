@@ -35,13 +35,13 @@ async def check_spread(bot, client_class_map):
     ClientClassMap: dict вида { 'X': Y, ... }
     """
 
-    subscribers = await load_subscribers()
     last_alert_times = {}
 
     all_clients = {}
 
     while True:
         listings = await load_listings()
+        subscribers = await load_subscribers()
 
         ticker_clients = {}
 
